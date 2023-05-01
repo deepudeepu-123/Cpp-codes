@@ -16,7 +16,7 @@ using namespace std;
 {
 
     vector<int> nums;
-    vector<string> ans;
+   int ans;
     int size_of_array;
     int value;
     cout << "enter the size of array: ";
