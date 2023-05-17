@@ -34,6 +34,6 @@ int main()
         nums.push_back(value);
     }
 
-    cout << maxArea(nums);
+    cout << maxArea(nums);//maximum area
     return 0;
 }
