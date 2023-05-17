@@ -1,22 +1,22 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
- int arrayPairSum(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
-        int n=nums.size();
-        int ans=0;
-        for(int i=0;i<n;i++)
-        {
-            if(i%2==0)
-            ans+=nums[i];
-
-        }
-        return ans;
+int arrayPairSum(vector<int> &nums)
+{
+    sort(nums.begin(), nums.end());
+    int n = nums.size();
+    int ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (i % 2 == 0)
+            ans += nums[i];
     }
-    int main()
+    return ans;
+}
+int main()
 {
 
     vector<int> nums;
-   int ans;
+    int ans;
     int size_of_array;
     int value;
     cout << "enter the size of array: ";
@@ -28,6 +28,7 @@ using namespace std;
         nums.push_back(value);
     }
     ans = arrayPairSum(nums);
+    //array pairs sum
 
     return 0;
 }
