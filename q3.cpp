@@ -45,7 +45,7 @@ int main()
         cin >> value;
         nums.push_back(value);
     }
-    ans = findRelativeRanks(nums);
+    ans = findRelativeRanks(nums);//answer
 
     return 0;
 }
