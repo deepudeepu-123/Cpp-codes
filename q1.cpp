@@ -22,7 +22,7 @@ int longestConsecutive(vector<int> &nums)
         else
             count = 1;
     }
-    return ans;
+    return ans; //answer
 }
 int main()
 {
