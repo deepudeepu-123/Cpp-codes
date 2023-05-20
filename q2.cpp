@@ -3,7 +3,7 @@ using namespace std;
 int maxArea(vector<int> &height)
 {
     int l = 0, r = height.size() - 1;
-    int ans = 0, w, area;
+    int ans = 0, w, area; //area
     while (l < r)
     {
         w = r - l;
